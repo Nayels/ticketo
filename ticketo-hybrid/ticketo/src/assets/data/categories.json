@@ -1,0 +1,10 @@
+[
+  {"name": "All receipts", "icon": "menu"},
+  {"name": "Entertainment", "icon": "play"},
+  {"name": "Food", "icon": "pizza"},
+  {"name": "Tech", "icon": "laptop"},
+  {"name": "Travel", "icon": "car"},
+  {"name": "Education", "icon": "school"},
+  {"name": "Supplies", "icon": "construct"},
+  {"name": "Other", "icon": "menu"}
+]

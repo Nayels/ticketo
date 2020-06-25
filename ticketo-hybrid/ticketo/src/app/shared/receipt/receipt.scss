@@ -1,0 +1,29 @@
+sg-receipt {
+
+  .receipt {
+    position: relative;
+  }
+
+  .receipt div {
+    padding: 10px;
+    float: left;
+  }
+
+  .card-title {
+    width: 75%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: bold;
+    color: black;
+  }
+
+  .card-subtitle {
+    width: 25%;
+    text-align: right;
+  }
+
+  ion-icon {
+    padding-left: 10px;
+  }
+}

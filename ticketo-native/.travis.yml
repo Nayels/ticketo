@@ -1,0 +1,6 @@
+osx_image: xcode10
+language: objective-c
+xcode_project: ticketo/ticketo.xcodeproj # path to your xcodeproj folder
+xcode_scheme: ticketo
+xcode_destination: platform=iOS Simulator,name=iPhone 8,OS=12.0
+

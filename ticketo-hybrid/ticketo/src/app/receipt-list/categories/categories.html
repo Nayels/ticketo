@@ -1,0 +1,8 @@
+<div class="categories">
+  <div *ngFor="let category of categories" (click)="selectCategory(category.name)" [class]="getClass(category.name)">
+    <div *ngIf="category.icon">
+      <ion-icon name= {{category.icon}} ></ion-icon>
+      <div>{{category.name}}</div>
+    </div>
+  </div>
+</div>

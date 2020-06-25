@@ -1,0 +1,29 @@
+sg-categories {
+
+  .categories {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .categories > div {
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #dedede;
+    margin: 5px 2px 5px 2px;
+  }
+
+  .categories > div.selected {
+    background: #dedede;
+  }
+}
